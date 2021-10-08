@@ -1,0 +1,15 @@
+*#
+.pyc
+.idea
+__pycache__
+*~
+.*
+node_modules
+sc/cache
+sc/artifacts
+.vscode/
+datasets/
+.DS_Store
+!.flake8
+!.pre-commit-config.yaml
+!.editorconfig
