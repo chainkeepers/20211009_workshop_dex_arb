@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+        <head>
+                <meta charset="utf-8">
+
+                <title>MEV a CHAINKEEPERS: Úžasná cesta světem DeFi</title>
+
+                <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+                <meta name="author" content="Hakim El Hattab">
+
+                <meta name="apple-mobile-web-app-capable" content="yes">
+                <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                <link rel="stylesheet" href="dist/reset.css">
+                <link rel="stylesheet" href="dist/reveal.css">
+                <link rel="stylesheet" href="dist/theme/chkp.css" id="theme">
+
+                <!-- Theme used for syntax highlighting of code -->
+                <link rel="stylesheet" href="plugin/highlight/monokai.css">
+        </head>
+
+        <body>
+
+                <div class="reveal">
+
+                        <!-- Any section element inside of this container is displayed as a slide -->
+                        <div class="slides">
+                                <section>
+                                        <a href="https://www.chainkeepers.io">
+                                                <img src="" alt="chainkeepers.io" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+                                        </a>
+                                        <h3>CHAINKEEPERS</h3>
+                                        <p>Hackujeme GETH pending logs</p>
+                                        <p>
+                                          <small>
+                                            <a href="mailto:ondrej.chaloupka@chainkeepers.io">Ondřej Chaloupka</a>
+                                            (<a href="https://www.chainkeepers.io">ChainKeepers</a>)
+                                          </small>
+                                        </p>
+                                </section>
+
+                                <section id="fragments">
+                                          <h2>agenda</h2>
+                                          <p class="fragment">ChainKeepers</p>
+                                          <p class="fragment">hackujeme</p>
+                                </section>
+
+                                <section>
+                                        <section id="fragments">
+                                          <h2>ChainKeepers</h2>
+                                          <small>keeping DeFi just work</small>
+                                          <p class="fragment">využíváme arbitrážních příležitostí</p>
+                                          <p class="fragment">udržujeme v DeFi <em>rovnováhu</em> a <em>stabilitu</em></p>
+                                          <p class="fragment">věříme v <em>otevřené</em> a <em>programovatelné</em> finance</p>
+                                          <p class="fragment">budeme <em>významným</em> tvůrcem cen v DeFi</p>
+                                          <p class="fragment">díky <em>skvělému</em> týmu</p>
+                                          <p class="fragment">financování z <a href="https://www.mitonc.com">Miton C</a></p>
+                                          <p class="fragment">
+                                            vizionářskému mentorovi <a href="https://www.miton.cz/ondrej-raska">Ondřeji Raškovi</a>
+                                          </p>
+                                        </section>
+                                        <section id="fragments">
+                                          <small>CHAINKEEPERS</small>
+                                          <h2>stack</h2>
+                                          <p class="fragment"><em>GO</em> geth, <em>Rust</em> Solana</p>
+                                          <p class="fragment"><em>Solidity</em> kontrakty</p>
+                                          <p class="fragment"><em>Python</em> liquidation bot</p>
+                                          <p class="fragment"><em>Pandas</em>, <em>Grafana</em> reporting</p>
+                                          <p class="fragment"><em>Javascript</em> někdy to jinak nejde</p>
+                                          <p class="fragment"><em>Ansible</em></p>
+                                          <p class="fragment"><a href="https://www.chainkeepers.io/cs/hiring">otevřené pozice</a></p>
+                                        </section>
+                               </section>
+
+                               <section id="fragments">
+                                 <small>HACKUJEME</small>
+                                 <h2>hackujeme</h2>
+                               </section>
+
+                        </div>
+
+                </div>
+
+                <script src="dist/reveal.js"></script>
+                <script src="plugin/zoom/zoom.js"></script>
+                <script src="plugin/notes/notes.js"></script>
+                <script src="plugin/search/search.js"></script>
+                <script src="plugin/markdown/markdown.js"></script>
+                <script src="plugin/highlight/highlight.js"></script>
+                <script>
+
+                        // Also available as an ES module, see:
+                        // https://revealjs.com/initialization/
+                        Reveal.initialize({
+                                controls: true,
+                                progress: true,
+                                center: true,
+                                hash: true,
+
+                                // Learn about plugins: https://revealjs.com/plugins/
+                                plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+                        });
+
+                </script>
+
+        </body>
+</html>
